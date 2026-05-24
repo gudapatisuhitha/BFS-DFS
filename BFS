@@ -1,0 +1,22 @@
+Breadth-First Search (BFS) in Python
+📘 Description
+
+Breadth-First Search (BFS) is a graph traversal algorithm used to explore nodes level by level. It starts from a source node and visits all neighboring nodes before moving to the next depth level. BFS is commonly used in graphs, trees, shortest path problems, AI search techniques, and networking.
+
+✨ Characteristics of BFS
+🔹 Traverses nodes level-wise
+🔹 Uses a Queue (FIFO) data structure
+🔹 Finds the shortest path in an unweighted graph
+🔹 Visits each node only once
+🔹 Suitable for graphs and tree structures
+🔹 Time Complexity: O(V + E)
+V → Vertices
+E → Edges
+⚙️ Working Process of BFS
+
+1️⃣ Start from the source node.
+2️⃣ Mark the node as visited ✔️
+3️⃣ Insert the node into the queue 📥
+4️⃣ Remove a node from the queue 📤
+5️⃣ Visit all unvisited neighboring nodes 🌐
+6️⃣ Repeat until the queue becomes empty 🔚
